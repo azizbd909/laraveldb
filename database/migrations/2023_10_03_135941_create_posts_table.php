@@ -21,7 +21,7 @@ return new class extends Migration
             $table->boolean('is_published')->default(false);
             $table->integer('min_to_read')->nullable(false);
             $table->timestamps();
-        });
+        });    
     }
 
     /**
